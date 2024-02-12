@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrewBliss Cafe</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Brew<span>Bliss</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Hero Section / Hero Image -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>From the Finest <span>Brew</span></h1>
+        <p>feel the pleasure in every sip</p>
+        <div class="button">
+          <a href="#" class="cta">Order now</a>
+        </div>
+      </main>
+    </section>
+    <!-- Hero Section / Hero Image -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <h2>About<span> Us</span></h2>
+
+      <div class="row">
+        <div class="row-img">
+          <img src="imgs/content-1.jpg" alt="about-us" />
+        </div>
+        <div class="row-content">
+          <h3>Why <span>Choose</span> Us?</h3>
+          <p>
+            BrewBliss is a coffee shop that invites coffee connoisseurs to experience joy in every sip. Located in the center of the bustling city, this shop serves a unique and enticing coffee experience to its patrons. Upon entering, you
+            will be greeted by the fragrant aroma of fresh coffee wafting through the air, creating a warm and inviting atmosphere.
+          </p>
+          <p>BrewBliss' interior design reflects a mix of contemporary style and cozy warmth. Walls lined with wood provide a natural touch, while soft lighting creates an atmosphere suitable for relaxing or hanging out with friends.</p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+      <h2><span>Menu</span> List</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sint. Natus, neque dicta! Corrupti, dolor.</p>
+
+      <div class="row">
+        <div class="menu-list">
+          <img src="imgs/menu-1.png" alt="menu-1" />
+          <h3 class="menu-list-text">Menu 1</h3>
+          <p class="menu-list-price">Menu 1</p>
+        </div>
+        <div class="menu-list">
+          <img src="imgs/menu-1.png" alt="menu-1" />
+          <h3 class="menu-list-text">Menu 1</h3>
+          <p class="menu-list-price">Menu 1</p>
+        </div>
+        <div class="menu-list">
+          <img src="imgs/menu-1.png" alt="menu-1" />
+          <h3 class="menu-list-text">Menu 1</h3>
+          <p class="menu-list-price">Menu 1</p>
+        </div>
+        <div class="menu-list">
+          <img src="imgs/menu-1.png" alt="menu-1" />
+          <h3 class="menu-list-text">Menu 1</h3>
+          <p class="menu-list-price">Menu 1</p>
+        </div>
+        <div class="menu-list">
+          <img src="imgs/menu-1.png" alt="menu-1" />
+          <h3 class="menu-list-text">Menu 1</h3>
+          <p class="menu-list-price">Menu 1</p>
+        </div>
+        <div class="menu-list">
+          <img src="imgs/menu-1.png" alt="menu-1" />
+          <h3 class="menu-list-text">Menu 1</h3>
+          <p class="menu-list-price">Menu 1</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Contact <span>Us</span></h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, beatae.</p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63273.279356926294!2d109.20062588159716!3d-7.620598477445093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65417378d89d0f%3A0x4027a76e35309e0!2sKroya%2C%20Cilacap%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1707550598282!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="inputs">
+            <i data-feather="user"></i>
+            <input type="text" name="text" id="text" placeholder="Name" />
+          </div>
+          <div class="inputs">
+            <i data-feather="mail"></i>
+            <input type="text" name="email" id="email" placeholder="Email" />
+          </div>
+          <div class="inputs">
+            <i data-feather="map-pin"></i>
+            <input type="text" name="address" id="address" placeholder="Address" />
+          </div>
+          <button type="submit" class="submit">Submit!</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
